@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C35230914B7BF1E00D3BE31 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C35230814B7BF1E00D3BE31 /* UIKit.framework */; };
+		6C35230B14B7BF1E00D3BE31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C35230A14B7BF1E00D3BE31 /* Foundation.framework */; };
+		6C35230D14B7BF1E00D3BE31 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C35230C14B7BF1E00D3BE31 /* CoreGraphics.framework */; };
+		6C35230F14B7BF1E00D3BE31 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C35230E14B7BF1E00D3BE31 /* CoreData.framework */; };
+		6C35231514B7BF1E00D3BE31 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6C35231314B7BF1E00D3BE31 /* InfoPlist.strings */; };
+		6C35231714B7BF1E00D3BE31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C35231614B7BF1E00D3BE31 /* main.m */; };
+		6C35231B14B7BF1E00D3BE31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C35231A14B7BF1E00D3BE31 /* AppDelegate.m */; };
+		6C35231E14B7BF1E00D3BE31 /* ZipperUpTime.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6C35231C14B7BF1E00D3BE31 /* ZipperUpTime.xcdatamodeld */; };
+		6C35232114B7BF1E00D3BE31 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C35232014B7BF1E00D3BE31 /* MainViewController.m */; };
+		6C35232714B7BF1E00D3BE31 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C35232514B7BF1E00D3BE31 /* MainViewController.xib */; };
+		6C35233214B7BF1E00D3BE31 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C35233114B7BF1E00D3BE31 /* SenTestingKit.framework */; };
+		6C35233314B7BF1E00D3BE31 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C35230814B7BF1E00D3BE31 /* UIKit.framework */; };
+		6C35233414B7BF1E00D3BE31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C35230A14B7BF1E00D3BE31 /* Foundation.framework */; };
+		6C35233514B7BF1E00D3BE31 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C35230E14B7BF1E00D3BE31 /* CoreData.framework */; };
+		6C35233D14B7BF1E00D3BE31 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6C35233B14B7BF1E00D3BE31 /* InfoPlist.strings */; };
+		6C35234014B7BF1E00D3BE31 /* ZipperUpTimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C35233F14B7BF1E00D3BE31 /* ZipperUpTimeTests.m */; };
+		6C35234B14B7C87700D3BE31 /* ZipperView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C35234A14B7C87700D3BE31 /* ZipperView.m */; };
+		6C35234D14B7D06A00D3BE31 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C35234C14B7D06A00D3BE31 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C35233614B7BF1E00D3BE31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C3522FB14B7BF1E00D3BE31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C35230314B7BF1E00D3BE31;
+			remoteInfo = ZipperUpTime;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6C35230414B7BF1E00D3BE31 /* ZipperUpTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZipperUpTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C35230814B7BF1E00D3BE31 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6C35230A14B7BF1E00D3BE31 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6C35230C14B7BF1E00D3BE31 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6C35230E14B7BF1E00D3BE31 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6C35231214B7BF1E00D3BE31 /* ZipperUpTime-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZipperUpTime-Info.plist"; sourceTree = "<group>"; };
+		6C35231414B7BF1E00D3BE31 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6C35231614B7BF1E00D3BE31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6C35231814B7BF1E00D3BE31 /* ZipperUpTime-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZipperUpTime-Prefix.pch"; sourceTree = "<group>"; };
+		6C35231914B7BF1E00D3BE31 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6C35231A14B7BF1E00D3BE31 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6C35231D14B7BF1E00D3BE31 /* ZipperUpTime.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZipperUpTime.xcdatamodel; sourceTree = "<group>"; };
+		6C35231F14B7BF1E00D3BE31 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		6C35232014B7BF1E00D3BE31 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		6C35232614B7BF1E00D3BE31 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainViewController.xib; sourceTree = "<group>"; };
+		6C35233014B7BF1E00D3BE31 /* ZipperUpTimeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZipperUpTimeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C35233114B7BF1E00D3BE31 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		6C35233A14B7BF1E00D3BE31 /* ZipperUpTimeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZipperUpTimeTests-Info.plist"; sourceTree = "<group>"; };
+		6C35233C14B7BF1E00D3BE31 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6C35233E14B7BF1E00D3BE31 /* ZipperUpTimeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZipperUpTimeTests.h; sourceTree = "<group>"; };
+		6C35233F14B7BF1E00D3BE31 /* ZipperUpTimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZipperUpTimeTests.m; sourceTree = "<group>"; };
+		6C35234914B7C87700D3BE31 /* ZipperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipperView.h; sourceTree = "<group>"; };
+		6C35234A14B7C87700D3BE31 /* ZipperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZipperView.m; sourceTree = "<group>"; };
+		6C35234C14B7D06A00D3BE31 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C35230114B7BF1E00D3BE31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C35234D14B7D06A00D3BE31 /* QuartzCore.framework in Frameworks */,
+				6C35230914B7BF1E00D3BE31 /* UIKit.framework in Frameworks */,
+				6C35230B14B7BF1E00D3BE31 /* Foundation.framework in Frameworks */,
+				6C35230D14B7BF1E00D3BE31 /* CoreGraphics.framework in Frameworks */,
+				6C35230F14B7BF1E00D3BE31 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C35232C14B7BF1E00D3BE31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C35233214B7BF1E00D3BE31 /* SenTestingKit.framework in Frameworks */,
+				6C35233314B7BF1E00D3BE31 /* UIKit.framework in Frameworks */,
+				6C35233414B7BF1E00D3BE31 /* Foundation.framework in Frameworks */,
+				6C35233514B7BF1E00D3BE31 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C3522F914B7BF1E00D3BE31 = {
+			isa = PBXGroup;
+			children = (
+				6C35231014B7BF1E00D3BE31 /* ZipperUpTime */,
+				6C35233814B7BF1E00D3BE31 /* ZipperUpTimeTests */,
+				6C35230714B7BF1E00D3BE31 /* Frameworks */,
+				6C35230514B7BF1E00D3BE31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C35230514B7BF1E00D3BE31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C35230414B7BF1E00D3BE31 /* ZipperUpTime.app */,
+				6C35233014B7BF1E00D3BE31 /* ZipperUpTimeTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C35230714B7BF1E00D3BE31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C35234C14B7D06A00D3BE31 /* QuartzCore.framework */,
+				6C35230814B7BF1E00D3BE31 /* UIKit.framework */,
+				6C35230A14B7BF1E00D3BE31 /* Foundation.framework */,
+				6C35230C14B7BF1E00D3BE31 /* CoreGraphics.framework */,
+				6C35230E14B7BF1E00D3BE31 /* CoreData.framework */,
+				6C35233114B7BF1E00D3BE31 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C35231014B7BF1E00D3BE31 /* ZipperUpTime */ = {
+			isa = PBXGroup;
+			children = (
+				6C35231914B7BF1E00D3BE31 /* AppDelegate.h */,
+				6C35231A14B7BF1E00D3BE31 /* AppDelegate.m */,
+				6C35231F14B7BF1E00D3BE31 /* MainViewController.h */,
+				6C35232014B7BF1E00D3BE31 /* MainViewController.m */,
+				6C35232514B7BF1E00D3BE31 /* MainViewController.xib */,
+				6C35231C14B7BF1E00D3BE31 /* ZipperUpTime.xcdatamodeld */,
+				6C35234914B7C87700D3BE31 /* ZipperView.h */,
+				6C35234A14B7C87700D3BE31 /* ZipperView.m */,
+				6C35231114B7BF1E00D3BE31 /* Supporting Files */,
+			);
+			path = ZipperUpTime;
+			sourceTree = "<group>";
+		};
+		6C35231114B7BF1E00D3BE31 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C35231214B7BF1E00D3BE31 /* ZipperUpTime-Info.plist */,
+				6C35231314B7BF1E00D3BE31 /* InfoPlist.strings */,
+				6C35231614B7BF1E00D3BE31 /* main.m */,
+				6C35231814B7BF1E00D3BE31 /* ZipperUpTime-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6C35233814B7BF1E00D3BE31 /* ZipperUpTimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				6C35233E14B7BF1E00D3BE31 /* ZipperUpTimeTests.h */,
+				6C35233F14B7BF1E00D3BE31 /* ZipperUpTimeTests.m */,
+				6C35233914B7BF1E00D3BE31 /* Supporting Files */,
+			);
+			path = ZipperUpTimeTests;
+			sourceTree = "<group>";
+		};
+		6C35233914B7BF1E00D3BE31 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C35233A14B7BF1E00D3BE31 /* ZipperUpTimeTests-Info.plist */,
+				6C35233B14B7BF1E00D3BE31 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C35230314B7BF1E00D3BE31 /* ZipperUpTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C35234314B7BF1E00D3BE31 /* Build configuration list for PBXNativeTarget "ZipperUpTime" */;
+			buildPhases = (
+				6C35230014B7BF1E00D3BE31 /* Sources */,
+				6C35230114B7BF1E00D3BE31 /* Frameworks */,
+				6C35230214B7BF1E00D3BE31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZipperUpTime;
+			productName = ZipperUpTime;
+			productReference = 6C35230414B7BF1E00D3BE31 /* ZipperUpTime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C35232F14B7BF1E00D3BE31 /* ZipperUpTimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C35234614B7BF1E00D3BE31 /* Build configuration list for PBXNativeTarget "ZipperUpTimeTests" */;
+			buildPhases = (
+				6C35232B14B7BF1E00D3BE31 /* Sources */,
+				6C35232C14B7BF1E00D3BE31 /* Frameworks */,
+				6C35232D14B7BF1E00D3BE31 /* Resources */,
+				6C35232E14B7BF1E00D3BE31 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C35233714B7BF1E00D3BE31 /* PBXTargetDependency */,
+			);
+			name = ZipperUpTimeTests;
+			productName = ZipperUpTimeTests;
+			productReference = 6C35233014B7BF1E00D3BE31 /* ZipperUpTimeTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C3522FB14B7BF1E00D3BE31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 6C3522FE14B7BF1E00D3BE31 /* Build configuration list for PBXProject "ZipperUpTime" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6C3522F914B7BF1E00D3BE31;
+			productRefGroup = 6C35230514B7BF1E00D3BE31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C35230314B7BF1E00D3BE31 /* ZipperUpTime */,
+				6C35232F14B7BF1E00D3BE31 /* ZipperUpTimeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C35230214B7BF1E00D3BE31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C35231514B7BF1E00D3BE31 /* InfoPlist.strings in Resources */,
+				6C35232714B7BF1E00D3BE31 /* MainViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C35232D14B7BF1E00D3BE31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C35233D14B7BF1E00D3BE31 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6C35232E14B7BF1E00D3BE31 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C35230014B7BF1E00D3BE31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C35231714B7BF1E00D3BE31 /* main.m in Sources */,
+				6C35231B14B7BF1E00D3BE31 /* AppDelegate.m in Sources */,
+				6C35231E14B7BF1E00D3BE31 /* ZipperUpTime.xcdatamodeld in Sources */,
+				6C35232114B7BF1E00D3BE31 /* MainViewController.m in Sources */,
+				6C35234B14B7C87700D3BE31 /* ZipperView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C35232B14B7BF1E00D3BE31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C35234014B7BF1E00D3BE31 /* ZipperUpTimeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C35233714B7BF1E00D3BE31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C35230314B7BF1E00D3BE31 /* ZipperUpTime */;
+			targetProxy = 6C35233614B7BF1E00D3BE31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6C35231314B7BF1E00D3BE31 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C35231414B7BF1E00D3BE31 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6C35232514B7BF1E00D3BE31 /* MainViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C35232614B7BF1E00D3BE31 /* en */,
+			);
+			name = MainViewController.xib;
+			sourceTree = "<group>";
+		};
+		6C35233B14B7BF1E00D3BE31 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C35233C14B7BF1E00D3BE31 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C35234114B7BF1E00D3BE31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6C35234214B7BF1E00D3BE31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C35234414B7BF1E00D3BE31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZipperUpTime/ZipperUpTime-Prefix.pch";
+				INFOPLIST_FILE = "ZipperUpTime/ZipperUpTime-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6C35234514B7BF1E00D3BE31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZipperUpTime/ZipperUpTime-Prefix.pch";
+				INFOPLIST_FILE = "ZipperUpTime/ZipperUpTime-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6C35234714B7BF1E00D3BE31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ZipperUpTime.app/ZipperUpTime";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZipperUpTime/ZipperUpTime-Prefix.pch";
+				INFOPLIST_FILE = "ZipperUpTimeTests/ZipperUpTimeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		6C35234814B7BF1E00D3BE31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ZipperUpTime.app/ZipperUpTime";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZipperUpTime/ZipperUpTime-Prefix.pch";
+				INFOPLIST_FILE = "ZipperUpTimeTests/ZipperUpTimeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C3522FE14B7BF1E00D3BE31 /* Build configuration list for PBXProject "ZipperUpTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C35234114B7BF1E00D3BE31 /* Debug */,
+				6C35234214B7BF1E00D3BE31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C35234314B7BF1E00D3BE31 /* Build configuration list for PBXNativeTarget "ZipperUpTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C35234414B7BF1E00D3BE31 /* Debug */,
+				6C35234514B7BF1E00D3BE31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6C35234614B7BF1E00D3BE31 /* Build configuration list for PBXNativeTarget "ZipperUpTimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C35234714B7BF1E00D3BE31 /* Debug */,
+				6C35234814B7BF1E00D3BE31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6C35231C14B7BF1E00D3BE31 /* ZipperUpTime.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6C35231D14B7BF1E00D3BE31 /* ZipperUpTime.xcdatamodel */,
+			);
+			currentVersion = 6C35231D14B7BF1E00D3BE31 /* ZipperUpTime.xcdatamodel */;
+			path = ZipperUpTime.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6C3522FB14B7BF1E00D3BE31 /* Project object */;
+}
